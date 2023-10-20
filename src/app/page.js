@@ -1,10 +1,12 @@
-import Banner from "@/Components/Homepage/Banner/Banner";
+import BabyWinter from "@/components/Homepage/BabyWinter/BabyWinter";
+import Banner from "@/components/Homepage/Banner/Banner";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="min-h-screen w-full">
       <Banner />
-    </main>
+      <BabyWinter />
+    </div>
   );
 }
