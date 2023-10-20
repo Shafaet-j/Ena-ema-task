@@ -1,10 +1,11 @@
 import React from "react";
 
-const Jwel = () => {
+const Women = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(https://i.ibb.co/HVbgcty/Jewelry.jpg)`,
+        backgroundImage: `url(
+        https://i.ibb.co/S6jhWKD/Women-Flight.jpg)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -21,15 +22,13 @@ const Jwel = () => {
         }}
         className="p-12 text-center w-full"
       >
-        <h2 className=" text-3xl font-normal text-white mb-7">
-          Louis Vuitton Blossom
-        </h2>
+        <h2 className=" text-3xl font-normal text-white mb-7">Flight Mode</h2>
         <div className=" flex gap-3 items-center justify-center">
           <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
-            Explore the Collection
+            Discover the Collection
           </button>
           <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
-            Discover the Campaign
+            Explore All Ready-to-Wear
           </button>
         </div>
       </div>
@@ -37,4 +36,4 @@ const Jwel = () => {
   );
 };
 
-export default Jwel;
+export default Women;
