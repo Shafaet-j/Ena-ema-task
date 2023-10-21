@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-screen overflow-hidden -mt-[100px]">
       <video className=" w-full h-full object-cover" autoPlay muted loop>
         <source
           src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/BrGH2Rcx4A_HD.mp4"
