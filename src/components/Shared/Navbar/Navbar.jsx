@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
@@ -33,7 +34,7 @@ const Navbar = () => {
         <div
           className={`flex items-center gap-4  ${
             scrolling ? "text-black" : "text-white"
-          } group-hover:text-black duration-200 font-light text-sm`}
+          } group-hover:text-black duration-200 font-light text-sm cursor-pointer`}
         >
           <p className=" flex items-center gap-3">
             <AiOutlineMenu size={20} />
@@ -45,18 +46,19 @@ const Navbar = () => {
           </p>
         </div>
         <div>
-          <h1
+          <Link
+            href="/"
             className={`${
               scrolling ? " text-black" : "text-white"
-            } group-hover:text-black duration-200 lg:text-3xl`}
+            } group-hover:text-black duration-200 lg:text-3xl cursor-pointer`}
           >
             LOUIS VUITTON
-          </h1>
+          </Link>
         </div>
         <div
           className={`flex items-center gap-8 ${
             scrolling ? "text-black" : "text-white"
-          }  group-hover:text-black duration-200 font-light text-sm`}
+          }  group-hover:text-black duration-200 font-light text-sm cursor-pointer`}
         >
           <a className=" hidden lg:block" href="">
             Call Us
