@@ -33,7 +33,7 @@ const Navbar = () => {
         <div
           className={`flex items-center gap-4  ${
             scrolling ? "text-black" : "text-white"
-          } group-hover:text-black duration-200`}
+          } group-hover:text-black duration-200 font-light text-sm`}
         >
           <p className=" flex items-center gap-3">
             <AiOutlineMenu size={20} />
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div
           className={`flex items-center gap-8 ${
             scrolling ? "text-black" : "text-white"
-          }  group-hover:text-black duration-200`}
+          }  group-hover:text-black duration-200 font-light text-sm`}
         >
           <a className=" hidden lg:block" href="">
             Call Us
