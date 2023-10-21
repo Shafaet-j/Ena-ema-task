@@ -11,30 +11,30 @@ const Services = () => {
         <div className=" space-y-5">
           <Image className=" w-full" src={bag} placeholder="blur" />
           <h2>How Can We Help You?</h2>
-          <p>
+          <p className=" text-sm font-thin">
             Wherever you are, Louis Vuitton Client Advisors will be delighted to
             assist you.
           </p>
-          <button>Contact Us</button>
+          <button className=" underline font-light">Contact Us</button>
         </div>
         <div className=" space-y-5">
           <Image className=" w-full" src={gift} placeholder="blur" />
           <h2>Art of Gifting</h2>
-          <p>
+          <p className=" text-sm font-thin">
             Choose the perfect gift from our specially curated selection of
             products.
           </p>
-          <button className=" underline mr-5">Gifts for Her</button>
-          <button className=" underline">Gifts for Him</button>
+          <button className=" underline mr-5 font-light">Gifts for Her</button>
+          <button className=" underline font-light">Gifts for Him</button>
         </div>
         <div className=" space-y-5">
           <Image className=" w-full" src={bag} placeholder="blur" />
           <h2>How Can We Help You?</h2>
-          <p>
+          <p className=" text-sm font-thin">
             Wherever you are, Louis Vuitton Client Advisors will be delighted to
             assist you.
           </p>
-          <button>Contact Us</button>
+          <button className=" underline font-light">Contact Us</button>
         </div>
       </div>
     </div>

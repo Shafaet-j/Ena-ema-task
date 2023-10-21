@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Shared/Navbar/Navbar";
 import Footer from "@/components/Shared/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto_Flex({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
