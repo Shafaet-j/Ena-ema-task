@@ -23,11 +23,11 @@ const Women = () => {
         className="p-12 text-center w-full"
       >
         <h2 className=" text-3xl font-normal text-white mb-7">Flight Mode</h2>
-        <div className=" flex gap-3 items-center justify-center">
-          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
+        <div className="flex flex-col lg:flex-row gap-3 items-center justify-center">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white w-70">
             Discover the Collection
           </button>
-          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white w-70">
             Explore All Ready-to-Wear
           </button>
         </div>

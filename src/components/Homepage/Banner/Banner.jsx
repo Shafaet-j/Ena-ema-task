@@ -48,7 +48,7 @@ const Banner = () => {
             <button onClick={toggleVideo}>
               {isPlaying ? <BiPause size={30} /> : <BiPlay size={30} />}
             </button>
-            <button className="bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white mt-5">
+            <button className="w-60 bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white mt-5">
               Discover the Collection
             </button>
             <button onClick={toggleMute}>

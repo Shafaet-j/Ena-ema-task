@@ -31,24 +31,24 @@ const Navbar = () => {
     >
       <nav className=" flex justify-between items-center ">
         <div
-          className={`flex items-center gap-6  ${
+          className={`flex items-center gap-4  ${
             scrolling ? "text-black" : "text-white"
           } group-hover:text-black duration-200`}
         >
           <p className=" flex items-center gap-3">
             <AiOutlineMenu size={20} />
-            <span>Menu</span>
+            <span className=" hidden lg:block">Menu</span>
           </p>
           <p className=" flex items-center gap-3">
             <AiOutlineSearch size={20} />
-            <span>Search</span>
+            <span className=" hidden lg:block">Search</span>
           </p>
         </div>
         <div>
           <h1
             className={`${
               scrolling ? " text-black" : "text-white"
-            } group-hover:text-black duration-200 text-3xl`}
+            } group-hover:text-black duration-200 lg:text-3xl`}
           >
             LOUIS VUITTON
           </h1>
@@ -58,9 +58,11 @@ const Navbar = () => {
             scrolling ? "text-black" : "text-white"
           }  group-hover:text-black duration-200`}
         >
-          <a href="">Call Us</a>
-          <p>Wishlist</p>
-          <p>MyLV</p>
+          <a className=" hidden lg:block" href="">
+            Call Us
+          </a>
+          <p className=" hidden lg:block">Wishlist</p>
+          <p className=" hidden lg:block">MyLV</p>
           <HiOutlineShoppingBag size={20} />
         </div>
       </nav>

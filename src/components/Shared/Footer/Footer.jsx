@@ -4,7 +4,7 @@ import { LiaFlagUsaSolid } from "react-icons/lia";
 const Footer = () => {
   return (
     <>
-      <footer className="  border-b-gray-200 py-14 border">
+      <footer className="  border-b-gray-200 py-14 border px-5">
         <div className=" container mx-auto grid grid-cols-2 lg:grid-cols-4">
           <div className=" space-y-5 flex flex-col">
             <h3 className=" font-light text-xs">HELP</h3>
@@ -71,13 +71,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className=" container mx-auto py-10 space-y-10">
-        <div className=" flex items-center justify-between">
+      <div className=" container mx-auto py-10 space-y-10 px-5">
+        <div className="flex-wrap flex-col-reverse lg:flex-row lg:flex items-center justify-between">
           <div className=" flex gap-3 items-center">
             <span className=" underline font-light text-sm">Ship to:</span>
             <span className=" underline font-light text-sm">
-              {" "}
-              <LiaFlagUsaSolid />{" "}
+              <LiaFlagUsaSolid />
             </span>
             <span className=" underline font-light text-sm">United States</span>
           </div>

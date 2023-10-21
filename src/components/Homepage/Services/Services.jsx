@@ -5,7 +5,7 @@ import gift from "../../../assets/gift.jpg";
 
 const Services = () => {
   return (
-    <div className=" container mx-auto pt-20 pb-11">
+    <div className=" container mx-auto pt-20 pb-11 px-5">
       <h2 className=" text-center mb-6 text-2xl">Services</h2>
       <div className=" lg:flex items-center gap-5">
         <div className=" space-y-5">
