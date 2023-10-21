@@ -4,7 +4,7 @@ const Watch = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(https://i.ibb.co/pQ7F5d2/Louis-Vuitton.jpg)`,
+        backgroundImage: `url(https://i.ibb.co/g92r8GQ/FRAGRANCE.jpg)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -21,12 +21,13 @@ const Watch = () => {
         }}
         className="p-12 text-center w-full"
       >
-        <h2 className=" text-3xl font-normal text-white mb-7">
-          Louis Vuitton x AKRIVIA
-        </h2>
-        <div>
-          <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
-            Discover the Watch
+        <h2 className=" text-3xl font-normal text-white mb-7">Myriad</h2>
+        <div className=" flex gap-3 items-center justify-center">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
+            Shop the Fragnance
+          </button>
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
+            Discover the Campaign
           </button>
         </div>
       </div>

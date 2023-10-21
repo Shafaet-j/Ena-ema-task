@@ -25,10 +25,10 @@ const Jwel = () => {
           Louis Vuitton Blossom
         </h2>
         <div className=" flex gap-3 items-center justify-center">
-          <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
             Explore the Collection
           </button>
-          <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
             Discover the Campaign
           </button>
         </div>

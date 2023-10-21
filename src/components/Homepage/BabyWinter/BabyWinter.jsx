@@ -1,10 +1,10 @@
 import React from "react";
 
-const BabyWinter = () => {
+const BabyWinter = ({ title, bg }) => {
   return (
     <div
       style={{
-        backgroundImage: `url(https://i.ibb.co/SrkQCVQ/baby.jpg)`,
+        backgroundImage: `url(${bg})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -22,10 +22,11 @@ const BabyWinter = () => {
         className="p-12 text-center w-full"
       >
         <h2 className=" text-3xl font-normal text-white mb-7">
-          Baby Winter Capsule Collection
+          {/* Baby Winter Capsule Collection */}
+          {title}
         </h2>
         <div>
-          <button className=" bg-transparent border border-white px-6 py-2 rounded-full text-white">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white">
             Explore the Collection
           </button>
         </div>

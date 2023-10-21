@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { BsFillVolumeUpFill, BsFillVolumeMuteFill } from "react-icons/bs";
 import { BiPause, BiPlay } from "react-icons/bi";
 
-const Banner = () => {
+const Men = ({ video, title }) => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(true);
   const [isMuted, setIsMuted] = useState(true);
@@ -24,9 +24,8 @@ const Banner = () => {
       setIsMuted(!isMuted);
     }
   };
-
   return (
-    <div className="relative h-screen overflow-hidden -mt-[100px]">
+    <div className="relative h-screen overflow-hidden">
       <video
         className=" w-full h-full object-cover"
         ref={videoRef}
@@ -34,22 +33,19 @@ const Banner = () => {
         muted
         loop
       >
-        <source
-          src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/iH5lUfELrY_HD.mp4"
-          type="video/mp4"
-        />
+        <source src={video} type="video/mp4" />
       </video>
       {/* Content to be displayed on top of the video */}
       <div className="flex items-end justify-center w-full absolute bottom-1 left-0 right-0">
         <div className="text-white text-center p-12 w-full">
-          <h1 className=" text-3xl text-center">Artycapucines 2023</h1>
+          <h1 className=" text-3xl text-center">{title}</h1>
 
           <div className=" flex justify-between items-center w-full">
             <button onClick={toggleVideo}>
               {isPlaying ? <BiPause size={30} /> : <BiPlay size={30} />}
             </button>
             <button className="bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white mt-5">
-              Discover the Collection
+              Explore the Collection
             </button>
             <button onClick={toggleMute}>
               {isMuted ? <BsFillVolumeMuteFill /> : <BsFillVolumeUpFill />}
@@ -61,4 +57,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Men;
