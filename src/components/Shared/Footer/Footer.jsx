@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className=" container mx-auto py-10 space-y-10 px-5">
-        <div className="flex-wrap flex-col-reverse lg:flex-row lg:flex items-center justify-between gap-5">
+        <div className=" flex flex-col-reverse lg:flex-row lg:flex items-center justify-between gap-5">
           <div className=" flex gap-3 items-center">
             <span className=" underline font-light text-sm">Ship to:</span>
             <span className=" underline font-light text-sm">
@@ -80,30 +80,24 @@ const Footer = () => {
             </span>
             <span className=" underline font-light text-sm">United States</span>
           </div>
-          <div className=" flex items-center gap-3">
-            <a className="font-light text-sm" href="">
+          <div className=" flex flex-wrap items-center justify-center gap-0 lg:gap-3">
+            <a className="font-light text-xs p-2" href="">
               Site map
             </a>
-            <a className="font-light text-sm" href="">
+            <a className="font-light text-xs p-2" href="">
               Legal Notice
             </a>
-            <a className="font-light text-sm" href="">
-              Site map
+            <a className="font-light text-xs p-2" href="">
+              Privacy Policy
             </a>
-            <a className="font-light text-sm" href="">
-              Legal Notice
+            <a className="font-light text-xs p-2" href="">
+              California Supply Chains Act
             </a>
-            <a className="font-light text-sm" href="">
-              Site map
+            <a className="font-light text-xs p-2" href="">
+              Do Not Sell or Share My Personal Information
             </a>
-            <a className="font-light text-sm" href="">
-              Legal Notice
-            </a>
-            <a className="font-light text-sm" href="">
-              Site map
-            </a>
-            <a className="font-light text-sm" href="">
-              Legal Notice
+            <a className="font-light text-sm p-2" href="">
+              Accessibility
             </a>
           </div>
         </div>

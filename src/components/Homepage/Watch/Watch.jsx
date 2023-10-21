@@ -23,10 +23,10 @@ const Watch = () => {
       >
         <h2 className=" text-3xl font-normal text-white mb-7">Myriad</h2>
         <div className=" flex flex-col lg:flex-row gap-3 items-center justify-center">
-          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white w-60">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-3 rounded-full text-white w-60">
             Shop the Fragnance
           </button>
-          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white w-60">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-3 rounded-full text-white w-60">
             Discover the Campaign
           </button>
         </div>

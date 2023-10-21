@@ -26,7 +26,7 @@ const BabyWinter = ({ title, bg }) => {
           {title}
         </h2>
         <div>
-          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-2 rounded-full text-white w-60">
+          <button className=" bg-opacity-50 backdrop-filter backdrop-blur-2xl bg-black border border-white px-7 py-3 rounded-full text-white w-60">
             Explore the Collection
           </button>
         </div>
